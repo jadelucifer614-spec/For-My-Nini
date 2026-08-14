@@ -1,0 +1,1 @@
+- [Brief fidelity](brief-fidelity.md) — For highly specified creative briefs, verify exact copy and interaction requirements after visual delegation.

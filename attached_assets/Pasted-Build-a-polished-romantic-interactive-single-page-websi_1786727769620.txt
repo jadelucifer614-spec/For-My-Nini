@@ -1,0 +1,540 @@
+Build a polished, romantic, interactive single-page website that is a surprise online date invitation for my girlfriend.
+
+The website is for:
+
+* Girlfriend: Nini, sometimes called Teddy
+* Me: Fifi, sometimes called Teddy
+* We met through playing BedWars on Roblox.
+* We play Roblox, Among Us, and Scrabble together.
+* One of our favorite things is simply talking about our day.
+* The date should include playing whatever game she chooses, talking, and potentially watching a movie such as Toy Story or Spider-Man.
+* Our color palette should be blue, white, and pink.
+* The overall feeling should be cute, romantic, intimate, playful, and slightly funny.
+* Do NOT make it look like a generic Valentine's Day template.
+* Do NOT make it childish.
+* It should feel like a modern, beautifully designed little interactive experience made specifically for one person.
+
+IMPORTANT:
+This is primarily a romantic frontend experience. Make it visually impressive and highly polished. Prioritize animations, transitions, typography, spacing, responsiveness, and the emotional progression of the experience.
+
+TECH STACK:
+
+* Use React.
+* Use modern CSS or Tailwind CSS.
+* Use Lucide icons or another lightweight icon library if useful.
+* No backend/database is necessary.
+* Everything should work locally in the browser.
+* Make it fully responsive, especially for phones, because the recipient may open it on her phone.
+* Do not require login.
+* Do not create unnecessary authentication or backend infrastructure.
+
+DESIGN:
+Use a soft blue → white → pink gradient as the main visual language.
+
+Suggested palette:
+
+* Soft sky blue
+* Very light blue
+* White
+* Soft baby pink
+* Slightly deeper pink for accents
+* Dark navy/blue text
+
+Use:
+
+* Large rounded cards
+* Soft shadows
+* Glassmorphism where appropriate
+* Subtle gradients
+* Rounded buttons
+* Smooth page transitions
+* Floating hearts
+* Tiny stars/sparkles
+* Very subtle background movement
+* Beautiful typography
+* Lots of whitespace
+
+Avoid:
+
+* Overly bright neon colors
+* Clashing colors
+* Huge amounts of emojis
+* Generic stock-photo aesthetics
+* Excessive animations that make the site annoying
+* Anything that looks like a corporate website
+
+The site should feel like opening a digital love letter.
+
+==================================================
+SCREEN 1 — LANDING
+==================
+
+Create a beautiful opening screen.
+
+Background:
+A soft blue/pink gradient with subtle animated particles, stars, and floating hearts.
+
+Center a glassmorphism card.
+
+Text:
+
+"Hi Nini ♡"
+
+Then:
+
+"I have a very important question to ask you..."
+
+Below it, a large animated button:
+
+"I'M LISTENING →"
+
+When clicked, transition smoothly into the next screen.
+
+The transition should feel intentional and romantic rather than simply changing the page.
+
+==================================================
+SCREEN 2 — THE INVITATION
+=========================
+
+Show:
+
+"Teddy would like to take Nini on a date."
+
+Then:
+
+"Unfortunately, we're still stuck behind our screens..."
+
+"So I made our own little online date instead."
+
+Then:
+
+"Will you join me?"
+
+Show two buttons:
+
+"YES, OBVIOUSLY ♡"
+
+and a smaller playful button:
+
+"maybe..."
+
+If the user clicks "maybe...", do NOT make it impossible to proceed.
+
+Instead, play a cute little interaction.
+
+For example:
+The button moves slightly or changes text and the page says:
+
+"Nini. 😐"
+
+Then the button changes to:
+
+"YES ♡"
+
+Clicking YES should trigger a small heart burst/confetti animation and continue.
+
+Make sure the interaction remains accessible and usable on mobile.
+
+==================================================
+SCREEN 3 — OUR DATE
+===================
+
+Title:
+
+"OUR DATE NIGHT"
+
+Subtitle:
+
+"Just you + me."
+
+Display four beautiful interactive cards in a responsive grid.
+
+Card 1:
+
+🎮
+"GAME TIME"
+
+Text:
+
+"You choose."
+
+"Roblox? Among Us? Scrabble? Something completely different?"
+
+"Tonight, you get to choose what we play."
+
+Button:
+
+"LET NINI CHOOSE →"
+
+When clicked, show a small modal/card with:
+
+"Your choice, Nini ♡"
+
+Options:
+
+* Roblox
+* Among Us
+* Scrabble
+* You choose something else
+
+Do not force the user to actually launch a game. This is a romantic invitation website.
+
+Card 2:
+
+💬
+"TALKING"
+
+Text:
+
+"Okay, no games for a minute."
+
+"Tell me everything."
+
+"How was your day?"
+
+"What made you happy?"
+
+"What annoyed you?"
+
+"What have you been thinking about?"
+
+Button:
+
+"START TALKING ♡"
+
+Clicking it should open a beautiful interactive prompt carousel.
+
+Include prompts such as:
+
+"What's something that made you smile today?"
+
+"What's something you've been thinking about lately?"
+
+"What's something you want us to do together someday?"
+
+"What's something you want to tell me?"
+
+"What's something you're looking forward to?"
+
+Allow the user to click NEXT QUESTION.
+
+Card 3:
+
+🍿
+"MOVIE TIME"
+
+Text:
+
+"Movie night?"
+
+"You choose."
+
+Show three choices:
+
+🧸 Toy Story
+
+🕷️ Spider-Man
+
+🎬 Something else
+
+When one is selected, show a cute confirmation:
+
+"Excellent choice, Nini. 🍿"
+
+and:
+
+"Movie night officially added to the date."
+
+Again, don't actually launch or stream movies.
+
+Card 4:
+
+♡
+"US"
+
+This should be the most emotional card.
+
+Text:
+
+"Do you remember how we met?"
+
+Then:
+
+"Somehow, two people playing BedWars on Roblox ended up here."
+
+Then:
+
+"From random games..."
+
+"to talking about our days..."
+
+"to staying up talking about absolutely everything..."
+
+"I'm really glad I met you."
+
+Button:
+
+"KEEP GOING →"
+
+==================================================
+SCREEN 4 — THE STORY
+====================
+
+Make this section feel like a small romantic timeline.
+
+Heading:
+
+"FROM BEDWARS TO US ♡"
+
+Create a simple animated timeline:
+
+"Random BedWars game"
+↓
+"Started talking"
+↓
+"Played more games"
+↓
+"Started talking about our days"
+↓
+"Somehow became us"
+
+Do not invent specific dates or memories.
+
+At the bottom:
+
+"And honestly..."
+
+"Out of all the random things that could have happened that day..."
+
+"I'm really glad I met you."
+
+Button:
+
+"ONE LAST QUESTION →"
+
+==================================================
+SCREEN 5 — THE FINAL QUESTION
+=============================
+
+Darken the background slightly while maintaining the blue/pink aesthetic.
+
+Make this the emotional climax.
+
+Text appears one line at a time:
+
+"So..."
+
+"We have our games."
+
+"We have our conversations."
+
+"We have our movie."
+
+"But most importantly..."
+
+"We have us."
+
+Then:
+
+"I have one last question."
+
+Large text:
+
+"Will you be my date tonight? ♡"
+
+Show a large button:
+
+"YES, TEDDY ♡"
+
+When clicked:
+
+* Trigger a beautiful but tasteful heart/sparkle animation.
+* Animate the background.
+* Transition to the final screen.
+
+==================================================
+SCREEN 6 — DATE CONFIRMED
+=========================
+
+Make this feel like a celebration.
+
+Large heading:
+
+"DATE CONFIRMED 💌"
+
+Then:
+
+"Nini ♡ Teddy"
+
+Show a beautiful summary card:
+
+🎮 Games
+"Your choice"
+
+💬 Talking
+"Tell me everything"
+
+🍿 Movie
+"Toy Story, Spider-Man, or whatever you choose"
+
+♡ Us
+"That's the important part"
+
+Then:
+
+"I can't wait."
+
+And:
+
+"Now go pick what we're playing."
+
+Final text:
+
+"See you tonight, Nini ♡"
+
+==================================================
+HIDDEN EASTER EGG
+=================
+
+Include ONE small hidden easter egg somewhere in the website.
+
+It should be playful and based on an inside joke between us involving her teasing me about eating sausages / the joke that sausages can have a suggestive meaning.
+
+IMPORTANT:
+Keep this subtle and tasteful. Do not make the main website sexual or explicit.
+
+For example, hide a tiny clickable sausage icon somewhere unusual.
+
+When clicked, show a playful modal:
+
+"YOU FOUND THE SECRET 👀"
+
+Then a teasing message such as:
+
+"I knew you would find this."
+
+Keep it PG-13/playful rather than explicit.
+
+Give the modal a close button.
+
+==================================================
+ANIMATION REQUIREMENTS
+======================
+
+Use Framer Motion if appropriate.
+
+Animations should include:
+
+* Smooth screen transitions
+* Fade + slide animations
+* Gentle floating hearts
+* Subtle sparkle effects
+* Button hover animations
+* Heart burst when accepting the invitation
+* Modal animations
+* Timeline animation
+* Final celebration animation
+
+Do not overdo animations.
+
+The website must still feel fast and responsive.
+
+Respect prefers-reduced-motion where possible.
+
+==================================================
+NAVIGATION / UX
+===============
+
+Do not make this a traditional website with a navbar.
+
+Instead, make it feel like a guided interactive experience.
+
+At the bottom of relevant screens, show something like:
+
+"01 / 06"
+
+or a subtle progress indicator.
+
+Allow the user to move forward naturally.
+
+Include a small back button where appropriate so the user can revisit previous sections.
+
+Do not make the experience frustrating if she accidentally clicks something.
+
+==================================================
+MOBILE
+======
+
+This is extremely important.
+
+Design mobile-first.
+
+On phones:
+
+* Cards should stack vertically.
+* Buttons should be large enough to tap.
+* Text should remain readable.
+* Animations should remain smooth.
+* No horizontal scrolling.
+* No tiny controls.
+* Make the main invitation fit nicely on a phone screen.
+
+Also make it look excellent on desktop.
+
+==================================================
+AUDIO
+=====
+
+Do NOT autoplay music with sound.
+
+If you want to include music, create a small optional music toggle.
+
+Default state should be OFF.
+
+The user should have to intentionally enable it.
+
+If no audio file exists, do not create a broken player.
+
+==================================================
+CODE QUALITY
+============
+
+Keep the code clean and componentized.
+
+Create reusable components for:
+
+* Screen transitions
+* Buttons
+* Cards
+* Modals
+* Floating hearts
+* Progress indicator
+* Question carousel
+
+Keep all text/content in an easy-to-edit configuration/object where practical so I can change wording later.
+
+Make sure there are no console errors.
+
+Make sure all buttons work.
+
+Make sure the site can be started with the normal Replit run command.
+
+Before considering the task complete:
+
+1. Run the project.
+2. Check every screen.
+3. Check every button.
+4. Check mobile responsiveness.
+5. Fix any visual overflow.
+6. Fix any console errors.
+7. Make the animations smooth.
+8. Make the final result feel polished rather than like a basic generated template.
+
+MOST IMPORTANT:
+The final result should feel like Fifi personally made a beautiful little digital date invitation for Nini.
+
+It should communicate:
+
+"I put effort into making this specifically for you."
+
+Do not add unnecessary features just because they are technically impressive. Emotional impact and polish are more important than complexity.
